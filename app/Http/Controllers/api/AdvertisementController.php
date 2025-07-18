@@ -470,8 +470,8 @@ class AdvertisementController extends Controller
     public function jobIntroduction(Request $request)
     {
 
-        if (auth()->user()->reachedRecruitmentDeclarationExpireTime()) {
-            response()->json([
+        if (auth()->user()->reachedRecruitmentDeclarationExpireTime()|| auth()->user()->reachedRecruitmentDeclarationQuantityLimitation(auth()->user()->advertisements?->count())) {
+           return response()->json([
                 'message' => 'شما به محدودیت انتشار آگهی پکیج خود رسیده اید ، لطفا برای انتشار آگهی یک پکیج خریداری نمایید'
             ]);
         }
@@ -973,7 +973,7 @@ class AdvertisementController extends Controller
     public function jobIntroductionUpdate(Request $request, $advertisement_id)
     {
 
-        if (auth()->user()->reachedRecruitmentDeclarationExpireTime() || auth()->user()->reachedRecruitmentDeclarationQuantityLimitation(auth()->user()->advertisements?->count())) {
+        if (auth()->user()->reachedRecruitmentDeclarationExpireTime() ) {
            return response()->json([
                 'message' => 'شما به محدودیت انتشار آگهی پکیج خود رسیده اید ، لطفا برای انتشار آگهی یک پکیج خریداری نمایید'
             ]);

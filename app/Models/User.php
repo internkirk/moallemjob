@@ -105,7 +105,7 @@ class User extends Authenticatable
 
     public function reachedRecruitmentDeclarationQuantityLimitation($quantity)
     {
-        if (is_int($this->userPlan?->plan->recruitment_declaration_quantity)) {
+        if ($this->userPlan?->plan->recruitment_declaration_quantity) {
             return $this->userPlan?->plan->recruitment_declaration_quantity <= $quantity;
         }
         return true;
