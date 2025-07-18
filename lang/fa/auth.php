@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'login form' => 'فرم ورود',
+    'login register' => 'فرم ثبت نام',
+    'email' => 'ایمیل',
+    'password' => 'رمزعبور',
+    'password confirm' => ' تایید رمزعبور',
+    'login' => 'ورود',
+    'remember me' => 'مرا به خاطر بسپار',
+    'lost password' => 'فراموشی رمز عبور',
+    'not registered' => 'ثبت نام نکرده اید',
+    'Create account' => 'ساخت اکانت',
+    'name' => 'نام و نام خانوادگی',
+    'register' => 'ثبت نام',
+    'register form' => 'فرم ثبت نام',
+    'profile' => 'پروفایل',
+    'logout' => 'خروج',
+    'dashboard' => 'داشبورد',
+    'mobile' => 'موبایل',
+    'welcome' => 'خوش آمدید',
+    'successfull registration' => 'ثبت نام با موفقیت انجام شد',
+    'wrong credentials' => 'ایمیل یا رمز عبور نادرست است',
+    'throttle' => 'تعداد درخواست بیشتر از حد مجاز شده است لطفا بعد از :seconds ثانیه امتحان نمایید',
+    'you must verify your email' => 'لطفا برای دسترسی بیشتر به امکانات وب سایت ایمیل خود را تایید کنید ، چنانچه ایمیل را دریافت نکرده اید 
+    بر روی این 
+    <span style="color: cyan";><a href=:link >لینک</a></span>
+    کلیک کنید',
+    'email veification successfully sent' => 'ایمیل با موفقیت ارسال شد',
+    'your email has been verified' => 'ایمیل شما قبلا تایید شده است',
+    'your email successfully verified' => 'ایمیل شما با موفقیت تایید شد',
+    'your email link has been edited' => 'لینک تایید ایمیل صحیح نمیباشد',
+    'reset password' => 'درخواست تغییر رمز عبور',
+    'submit' => 'ارسال',
+    'reset link sent successfully' => 'ایمیل تغییر رمز عبور با موفقیت ارسال شد',
+    'reset link sent before' => 'ایمیل قبلا ارسال شده است',
+    'reset password form' => 'فرم تغییر رمز عبور',
+    'login with google' => 'ورود با گوگل',
+    'login with magic link' => 'ورود با لینک جادویی',
+    'link sent successfully' => 'ایمیل با موفقیت ارسال شد',
+    'reset link sent before' => 'ایمیل قبلا ارسال شده است',
+    'enter without password' => 'ورود بدون رمز عبور',
+    'invalid_token' => 'توکن معتبر نمیباشد',
+    'two factor authenticate' => 'تایید دو مرحله ای',
+    'activate' => 'فعال سازی',
+    'deactivate' => 'غیر فعال سازی',
+    'two factor authentication activated' => 'تایید دو مرحله ای فعال شد',
+    'two factor authentication failed' => 'تایید دو مرحله ای فعال نشد',
+    'two factor authentication deactivated' => 'تایید دو مرحله ای غیر فعال شد',
+    'two factor code is wrong' => 'رمز شما نادرست است'
+
+];
